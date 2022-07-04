@@ -2,12 +2,13 @@ services:
   - type: web
     name: fief
     env: docker
-    repo: ghcr.io/fief-dev/fief:0.16.6
     region: frankfurt
     plan: free
     domains:
       - fief.wdtk.io
     numInstances: 1
+    dockerfilePath: ./fief/Dockerfile
+    dockerContext: ./fief
     envVars:
       - key: SECRET
         sync: false

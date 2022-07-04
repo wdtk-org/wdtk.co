@@ -1,0 +1,1 @@
+FROM ghcr.io/fief-dev/fief:0.16.6
