@@ -34,7 +34,7 @@ services:
       - key: ALLOW_ORIGIN_REGEX
         value: https://wdtk\.io
       - key: FORWARDED_ALLOW_IPS
-        value: *
+        value: "*"
       - key: DATABASE_TYPE
         value: POSTGRESQL
       - key: DATABASE_URL
