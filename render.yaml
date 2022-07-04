@@ -3,7 +3,7 @@ services:
     name: fief
     env: docker
     region: frankfurt
-    plan: free
+    plan: starter
     domains:
       - fief.wdtk.io
     numInstances: 1
